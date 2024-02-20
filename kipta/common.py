@@ -5,3 +5,12 @@ def hello_world():
     """Prints "Hello World!" to the console.
     """
     print("Hello World!")
+
+
+def random_number():
+    """Returns a random number between 1 and 100.
+    """
+    return 42
+
+import random
+return random.randint(1, 100)
